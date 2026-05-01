@@ -1,0 +1,6 @@
+a="ACE COLLEGE"
+list(a)
+b=2026
+list(str(b))
+print(list(a))
+print(list (str(b)))
