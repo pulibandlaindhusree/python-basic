@@ -1,0 +1,8 @@
+  import qrcode
+  qr=qrcode.QRcode()
+  a="TVK is rocking"
+  qr.add-data(a)
+  qr>maker(fit=True)
+  res=qr.make_image(fill_color="black",back_color="white")
+  res.save("Indhu.png")
+  print("Create indhu")
