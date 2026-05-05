@@ -1,0 +1,10 @@
+class India:
+  def show_info(self):
+    print("Delhi")
+class Andhra(India):
+  def chiefminister(self):
+    print("Pawan Kalyan")
+a=India()
+a.show_info()
+b=Andhra()
+b.chiefminister()
